@@ -1,0 +1,4 @@
+# Runtime dependencies for the released TTDF transition model only.
+# The frozen DINOv2 / MS-TCN recognizer is not included here.
+numpy>=1.24,<3
+torch>=2.0,<3

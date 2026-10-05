@@ -108,4 +108,4 @@ The data and frozen recognizer outputs used for the paper are not part of this r
 }
 ```
 
-The workshop proceedings metadata will replace the provisional venue note when available. Contact: scyg@leeds.ac.uk. Code is licensed under [MIT](LICENSE); the Cholec80 dataset has its own terms.
+

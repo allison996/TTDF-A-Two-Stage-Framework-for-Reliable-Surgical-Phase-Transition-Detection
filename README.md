@@ -1,9 +1,5 @@
 # TTDF: A Two-Stage Framework for Reliable Surgical Phase Transition Detection
 
-**MICCAI 2026 workshop paper** · Yushi Guo, Pietro Valdastri, Duygu Sarikaya
-
-University of Leeds · STORM Lab UK
-
 TTDF turns predictions from a frozen online phase recognizer into reliable surgical workflow transition events. **Transition Candidate Extraction (TCE)** removes short phase jitter and workflow-illegal switches. **Transition Candidate Verification (TCV)** then evaluates the remaining candidates using phase-posterior shifts and frozen visual-change cues. The paper evaluates emitted events with ordered phase-pair-aware, one-to-one matching.
 
 ## Prerequisites

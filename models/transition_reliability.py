@@ -1,15 +1,3 @@
-"""Candidate-level transition reliability modules.
-
-This module is for the S2 stage of the phase-recognition project.  It does not
-replace the frame-wise recognizer.  Instead, it consumes a short window of
-recognizer evidence around a proposed transition A->B and predicts whether that
-candidate should be committed.
-
-The design borrows the useful part of TriDet's Trident-head: local boundaries
-are represented by a relative distribution over neighboring temporal bins,
-rather than by a single point confidence.  Here that idea becomes relative
-transition-evidence pooling over a candidate window.
-"""
 
 from __future__ import annotations
 

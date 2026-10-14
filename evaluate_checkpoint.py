@@ -1,4 +1,3 @@
-"""Evaluate a released TCV checkpoint on aligned recognizer trajectories."""
 
 from __future__ import annotations
 
